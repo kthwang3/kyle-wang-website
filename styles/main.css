@@ -11,13 +11,33 @@ main{
     padding: 20px;
     border-radius: 20px;
     border: 3px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+   
     
 }
 .about-title{
+    margin: 0;
+    margin-bottom: 20px;
     font-size: 36px;
 }
 .about-description{
     font-size: 24px;
+    line-height: 1.6;
+}
+.about-picture{
+    width: 300px;
+    aspect-ratio: 3 / 4; 
+    flex-shrink: 0;
+}
+.profile-picture{
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
 }
 .projects{
     
@@ -47,15 +67,15 @@ main{
 }
 .project-picture{
     width: 100%;
+    border-radius: 8px;
 }
 .project-info{
     margin-left: 20px;
 }
 .project-title{
-    font-weight: bold;
     font-size: 24px;
     margin: 0;
-    margin-bottom: 
+    margin-bottom: 10px;
 }
 .project-description{
     font-size: 16px;
