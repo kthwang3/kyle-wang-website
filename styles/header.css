@@ -1,13 +1,11 @@
 header{
     font-family: 'Ubuntu', Arial;
     font-weight: bold;
-    background-color: aqua;
+    background-color: rgba(42, 46, 51, 0.90);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid;
-    border-color: black;
-    border-width: 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
     height: 100px;
     position: fixed;
 
@@ -17,14 +15,13 @@ header{
 
 }
 .left-section{
-    background-color: red;
     margin-left: 20px;
 }
 .nav-link {
     font-size: 32px;
-  text-decoration: none;
-  color: black;
-  margin-right: 50px;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    margin-right: 50px;
 }
 
 .nav-link:hover {
@@ -32,11 +29,12 @@ header{
 }
 .about-button,
 .projects-button{
+    
     margin-right: 100px;
     font-size: 24px;
 }
 .middle-section{
-    background-color: green;
+
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -62,18 +60,50 @@ header{
     margin: 0;
 }
 .right-section{
-    background-color: yellow;
+    width: 150px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.github-icon-container{
-    background-color: white;
+.github-icon-container,
+.linkedin-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.github-icon-container:hover .tooltip,
+.linkedin-icon-container:hover .tooltip{
+    opacity: 1;
 }
 .github-icon{
+    height: 50px;
     width: 50px;
+    border-radius: 50%;
+    color: white;
+
+    
 }
 .linkedin-icon{
     width: 50px;
-    border-radius: 25px;
+
+}
+.tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+    white-space: nowrap;
 }

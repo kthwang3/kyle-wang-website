@@ -5,6 +5,9 @@ main{
     font-family: 'Ubuntu', Arial;
     
 }
+section{
+  scroll-margin-top: 120px;
+}
 .about{
     background-color: #2A2E33;
     margin-bottom: 100px;
