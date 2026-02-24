@@ -1,6 +1,7 @@
 body {
   height: 100%;
   margin: 0;        /* removes the default white border */
-  padding-top: 80px;
- 
+  padding-top: 80px; 
+  background-color: #0F172A;
+  color: white;
 }
