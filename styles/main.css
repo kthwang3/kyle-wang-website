@@ -13,6 +13,12 @@ main{
     border: 3px solid rgba(255, 255, 255, 0.08);
     
 }
+.about-title{
+    font-size: 36px;
+}
+.about-description{
+    font-size: 24px;
+}
 .projects{
     
 }
@@ -22,6 +28,7 @@ main{
     background-color: #2A2E33;
     padding: 20px;
     margin-bottom: 100px;
+    font-size: 36px;
 }
 .projects-preview{
     
@@ -33,11 +40,24 @@ main{
 .projects-info-grid{
     border: 3px solid rgba(255, 255, 255, 0.08);
     border-radius: 20px;
-    backgrou nd-color: #2A2E33;
+    background-color: #2A2E33;
     display: grid;
     grid-template-columns: 200px 1fr;
     padding: 20px;
 }
 .project-picture{
     width: 100%;
+}
+.project-info{
+    margin-left: 20px;
+}
+.project-title{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 
+}
+.project-description{
+    font-size: 16px;
+    margin: 0;
 }

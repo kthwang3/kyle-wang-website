@@ -5,3 +5,8 @@ body {
   background-color: #0F172A;
   color: white;
 }
+p{
+  font-family: 'Ubuntu', Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
