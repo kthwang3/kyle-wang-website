@@ -18,14 +18,18 @@ header{
     margin-left: 20px;
 }
 .nav-link {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
     font-size: 32px;
     text-decoration: none;
     color: rgb(192, 192, 192);
     margin-right: 50px;
+    transition: background-color 0.15s;
 }
 
 .nav-link:hover {
-  color: blue;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .about-button,
 .projects-button{
@@ -73,6 +77,14 @@ header{
     align-items: center;
     position: relative;
     cursor: pointer;
+    padding: 15px 15px;
+    border-radius: 50%;
+
+    transition: background-color 0.15s;
+}
+.github-icon-container:hover,
+.linkedin-icon-container:hover{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .github-icon-container:hover .tooltip,
 .linkedin-icon-container:hover .tooltip{
@@ -83,11 +95,12 @@ header{
     width: 50px;
     border-radius: 50%;
     color: white;
-
+    
     
 }
 .linkedin-icon{
     width: 50px;
+
 
 }
 .tooltip{
