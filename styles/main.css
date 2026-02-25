@@ -50,7 +50,7 @@ section{
     border-radius: 20px;
     background-color: #2A2E33;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     font-size: 36px;
 }
 .projects-preview{
@@ -58,7 +58,7 @@ section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
-    row-gap: 200px;
+    row-gap: 100px;
 }
 .projects-info-grid{
     border: 3px solid rgba(255, 255, 255, 0.08);
@@ -67,6 +67,9 @@ section{
     display: grid;
     grid-template-columns: 200px 1fr;
     padding: 20px;
+
+    min-height: 200px;
+
 }
 .project-picture{
     width: 100%;
@@ -74,6 +77,9 @@ section{
 }
 .project-info{
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
 }
 .project-title{
     font-size: 24px;
@@ -83,4 +89,15 @@ section{
 .project-description{
     font-size: 16px;
     margin: 0;
+    margin-bottom: 15px;
+}
+.skills-container{
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+.skill{
+    width: 50px;
 }
