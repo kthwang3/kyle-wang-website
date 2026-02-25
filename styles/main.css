@@ -32,21 +32,34 @@ section{
     line-height: 1.6;
 }
 .about-picture{
+    position: relative;
     width: 300px;
     aspect-ratio: 3 / 4; 
     flex-shrink: 0;
 }
+
 .projects{
     margin-bottom: 100px;
 }
-.profile-picture{
+.profile-img-default,
+.profile-img-hover{
     border: none;
     height: 100%;
     width: 100%;
     border-radius: 16px;
     object-fit: cover;
 }
+.profile-img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
 
+}
+
+.about-picture:hover .profile-img-hover {
+    opacity: 1;
+}
 .projects-title{
     border: 3px solid rgba(255, 255, 255, 0.08);
     border-radius: 20px;
