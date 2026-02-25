@@ -3,8 +3,7 @@
 A personal landing page/portfolio website built with **HTML + CSS**. It includes an **About** section, **Projects** section, and quick links to my GitHub/LinkedIn.
 
 ## Live Site
-> If you’re using GitHub Pages, put your link here:
-- https://<your-username>.github.io/<repo-name>/
+- https://kthwang3.github.io/kyle-wang-website/
 
 ## Sections
 - **About**: Short intro + current interests (ML/CV, robotics, full-stack)
